@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: 'News Cycle', sans-serif; 
+    background-color: #F0EEEE;
+}
+
+#main-container {
+    width: auto;
+}
+#nav-bar {
+    width: 1170px;
+    height: 70px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#logo > a > img {
+    height: 25px;
+    padding: 15px;
+    margin-top: 5px;
+    float: left;
+}
+
+.menu >li   {
+    
+    display: inline;
+    
+}
+.menu > li > a {
+    text-decoration: none;
+    float: right;
+    color: white;
+    font-size: 28px;
+    margin-right: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+#image-container {
+    width: auto;
+    height: 500px;
+    margin: 0 auto;
+    background: url(2.jpg) no-repeat center;
+}
+
+#inside-container {
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 90px;
+    border-radius: 2px;
+}
+
+.menu >li > a:hover {
+    color: cornflowerblue;
+    
+} 
+
+#info > h2 {
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 30px 0 0 0;
+    line-height: 50px;
+}
+
+#info > p {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 40px;
+    margin: 10px;;
+    text-align: center;
+    font-weight: 700;
+}
+
+#info > p > a {
+    
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+    
+
+
+}
+
+#info > p > a:hover {
+    background-color: white;
+    color: black;
+    transition-delay: 0.3s;
+}
+
+#main-container-2 {
+    
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.mini-container {
+     width: 320px;
+     height: 460px;
+     float: left;
+     margin;;
+     background-color: white;
+     padding: 20px;
+     text-align: center;
+     margin: 10px 15px;
+    
+    
+}
+.mini-container > img {
+    height: 200px;
+    width: 100%;
+    
+}
+
+.mini-container > p {
+    
+    padding-bottom: 30px;
+    
+}
+
+.mini-container >a {
+    padding: 2px 5px;
+    border:1px solid black;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.mini-container >a:hover {
+
+    color: white;
+    background-color: black;
+}
+.clear {
+    clear: both;
+}
+
+#footer {
+    width: 1170px;
+    height: 50px;
+    background-color:#222222;
+    margin: 10px auto;
+}
+
+#footer-text {
+    color: white;
+    text-align: center;  
+    padding: 10px;
+}
